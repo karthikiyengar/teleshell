@@ -1,0 +1,12 @@
+{
+  "name": "teleshell",
+  "version": "1.0.0",
+  "description": "Shell access to your box using a Telegram Bot",
+  "main": "server.js",
+  "scripts": {
+      "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Karthik Iyengar",
+  "license": "MIT"
+}
