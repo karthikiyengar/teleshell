@@ -4,9 +4,12 @@
   "description": "Shell access to your box using a Telegram Bot",
   "main": "server.js",
   "scripts": {
-      "start": "node server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Karthik Iyengar",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.23.3"
+  }
 }
