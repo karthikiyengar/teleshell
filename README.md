@@ -23,4 +23,8 @@ Some cases where this might be helpful:
 * Now go to Telegram and ping the bot that you've created. If the token has been set correctly, you should see loglines like so on your terminal: `Unauthorized command from user <NAME> (<USER ID>) [Thu Sep 08 2016 22:39:02 GMT+0530 (IST)]: ls`
 * Copy the User ID and add it to the whitelist and you are done. The bot will alert you if it receives messages from non-whitelisted IDs
 
+<p align="center">
+  <img src="https://lh3.googleusercontent.com/-yP0nAX6j1VwmB1pv3nCwmbW5kne3LPzWntKECe0pKiDvdskcS7lP3vkV_-Ld8VW9Z5QTOUZ3klYcPE=w1920-h935-rw" height="400" />
+</p>
+
 Suggestions, contributions, criticism and pull requests welcome.
