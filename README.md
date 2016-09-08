@@ -24,7 +24,7 @@ Some cases where this might be helpful:
 * Copy the User ID and add it to the whitelist and you are done. The bot will alert you if it receives messages from non-whitelisted IDs
 
 <p align="center">
-  <img src="https://lh3.googleusercontent.com/-yP0nAX6j1VwmB1pv3nCwmbW5kne3LPzWntKECe0pKiDvdskcS7lP3vkV_-Ld8VW9Z5QTOUZ3klYcPE=w1920-h935-rw" height="400" />
+  <img src="https://cloud.githubusercontent.com/assets/8260207/18361498/a8c23f1e-761f-11e6-91b3-b938b6118342.jpg" height="400" />
 </p>
 
 Suggestions, contributions, criticism and pull requests welcome.
