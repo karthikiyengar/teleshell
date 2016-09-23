@@ -1,21 +1,13 @@
 const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
+const config = require('./config.json');
 
-fs.readFile('config.json', 'utf-8', function(err, data) {
-	if (err) {
+(function serve() {	
+	if (config !== undefined) {
+		var { token, whitelist, processTimeout } = config;
+	} else {
 		console.log('Unable to open the configuration file. Is config.json present?');
-		process.exit(1);
 	}
-	try {
-		config = JSON.parse(data);
-	} catch (e) {
-		throw e;
-	}
-	serve(config);
-});
-
-function serve(config) {
-	var { token, whitelist, processTimeout } = config;
 	processTimeout = !isNaN(processTimeout) ? parseInt(processTimeout) : null; 
 	var bot = new TelegramBot(token, {
 		polling: true
@@ -63,7 +55,7 @@ function serve(config) {
 			});
 		}
 	});
-}
+})();
 
 function setProcessTimer(child, replyToSender, processName, duration) {
 	const id =setTimeout(f => {
