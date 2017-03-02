@@ -7,6 +7,8 @@ Some cases where this might be helpful:
 * You're behind a firewall which blocks incoming traffic.
 * You have a dynamic IP address and don't want to set up Dynamic DNS
 
+The things that you can do with teleshell would ideally be enough to get a reverse SSH tunnel going to your box, wherever you are.
+
 ## Quick Start
 
 * Generate a telegram bot authorization token by following the instructions [here](https://core.telegram.org/bots#6-botfather)
@@ -26,5 +28,13 @@ Some cases where this might be helpful:
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/8260207/18361498/a8c23f1e-761f-11e6-91b3-b938b6118342.jpg" height="400" />
 </p>
+
+## Autostart
+Using pm2, you can get teleshell to autoexecute on startup
+
+* `npm install --global pm2`
+* `sudo pm2 startup`
+* `pm2 server.js --name teleshell`
+* `pm2 save`
 
 Suggestions, contributions, criticism and pull requests welcome.
