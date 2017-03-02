@@ -33,8 +33,8 @@ The things that you can do with teleshell would ideally be enough to get a rever
 Using pm2, you can get teleshell to autoexecute on startup
 
 * `npm install --global pm2`
-* sudo pm2 startup
-* pm2 server.js --name teleshell
-* pm2 save
+* `sudo pm2 startup`
+* `pm2 server.js --name teleshell`
+* `pm2 save`
 
 Suggestions, contributions, criticism and pull requests welcome.
