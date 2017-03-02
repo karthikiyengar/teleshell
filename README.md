@@ -6,8 +6,7 @@ Some cases where this might be helpful:
 * You're in a double NAT environment and do not have access to your ISP's routers.
 * You're behind a firewall which blocks incoming traffic.
 * You have a dynamic IP address and don't want to set up Dynamic DNS
-
-The things that you can do with teleshell would ideally be enough to get a reverse SSH tunnel going to your box, wherever you are.
+* You have no one to turn to, and you need to run a few commands to get a reverse SSH tunnel going
 
 ## Quick Start
 
