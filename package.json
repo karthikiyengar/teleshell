@@ -10,6 +10,6 @@
   "author": "Karthik Iyengar",
   "license": "MIT",
   "dependencies": {
-    "node-telegram-bot-api": "^0.23.3"
+    "node-telegram-bot-api": "^0.27.0"
   }
 }
